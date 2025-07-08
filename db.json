@@ -1,13 +1,47 @@
 {
   "posts": [ 
-    { "id": 1 , "title": "Order #1001", "customer_email": "sanjeev@example.com", "total_price":"99.95"},
-    { "id": 2 , "title": "Order #1002", "customer_email": "emily@example.com", "total_price":"158.99"},
-    { "id": 3 , "title": "Order #1003", "customer_email": "kaitlyn@example.com", "total_price":"99.95"}
+    { 
+      "id": 1, 
+      "title": "Order #1001", 
+      "customer_email": "sanjeev@example.com", 
+      "total_price":"99.95"
+    },
+    { 
+      "id": 2, 
+      "title": "Order #1002", 
+      "customer_email": "emily@example.com", 
+      "total_price":"158.99"
+    },
+    { 
+      "id": 3, 
+      "title": "Order #1003", 
+      "customer_email": "kaitlyn@example.com", 
+      "total_price":"99.95"
+    }
   ],
-  "comments": [ { "id": 1 , "body": "Some comment", "postId": 1, "user": 
-    { "id": 1 , "name": "Sanjeev Gupta", "email": "sanjeev@example.com", "company": "Innovate Inc."} },
-    { "id": 2 , "body": "Another comment", "postId": 1, "user": 
-    { "id": 2 , "name": "Jane Doe", "email": "jane@example.com", "company": "Solutions Corp."} }
+  "comments": [ 
+    { 
+      "id": 1,
+      "body": "Some comment", 
+      "postId": 1, 
+      "user": { 
+        "id": 1, 
+        "name": "Sanjeev Gupta",
+        "email": "sanjeev@example.com",
+        "company": "Innovate Inc."
+      } 
+    },
+    { 
+      "id": 2,
+      "body": "Another comment",
+      "postId": 1, 
+      "user": { 
+        "id": 2,
+        "name": "Jane Doe",
+        "email": "jane@example.com",
+        "company": "Solutions Corp."
+      } 
+    }
   ],
   "profile": {
     "name": "typicode"
