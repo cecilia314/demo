@@ -1,5 +1,5 @@
 {
-  "shopify_orders": [ 
+  "shopify": [ 
     { 
       "id": 1, 
       "title": "Order #1001", 
@@ -19,7 +19,7 @@
       "total_price":"99.95"
     }
   ],
-  "zoho_crm": [ 
+  "zoho": [ 
     { 
       "id": 1,
       "body": "Some comment", 
